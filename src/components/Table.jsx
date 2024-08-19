@@ -1,3 +1,5 @@
+import "./styling.css";
+
 const activeStatus = (status) => {
   if (status === true) return "active";
   if (status === false) return "inactive";
